@@ -14,6 +14,9 @@ Avaliable application properties:
 2. google.api.key
 3. search.max.rows
 
+Build executable jar:
+mvn clean install
+
 Execution:
 java -Dgeonames.account=YOUR_GEONAMES_ACCOUNT -Dgoogle.api.key=YOUR_GOOGLE_API_KEY -jar map-search-version.jar
 
