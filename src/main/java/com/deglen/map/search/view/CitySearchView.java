@@ -36,7 +36,7 @@ public class CitySearchView extends VerticalLayout {
     private Grid<EntityDto> grid = new Grid<>(EntityDto.class);
     private GoodMapWrapper goodMap;
 
-    public CitySearchView(CitySearchController controller, @Value("${googe.api.key}") String googleApiKey,
+    public CitySearchView(CitySearchController controller, @Value("${google.api.key}") String googleApiKey,
             @Value("${search.max.rows}") Long searchMaxRows) {
         this.controller = controller;
         this.searchMaxRows = searchMaxRows;
